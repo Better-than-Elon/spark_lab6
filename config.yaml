@@ -20,6 +20,9 @@ dataset:
   - saturated-fat_100g
   - salt_100g
   - sodium_100g
+db_connection:
+  host: localhost
+  pass: 12345
 db:
     data_table: train_X
     pred_table: predictions
